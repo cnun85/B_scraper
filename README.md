@@ -12,12 +12,13 @@ Instalación de Python 3 (Python 3.8 used in this app)
 
 iniciar entorno virtual:
 
-	$ cd Bing_escraper
+	$ cd B_escraper-main
 	$ py -3 -m venv venv
 	$ venv\Scripts\activate
 
 Dependencias:
 
+	$ python -m pip install --upgrade pip
 	$ pip3 install -r requirements.txt
 
 #### Ejecutando la aplicación:
@@ -33,8 +34,8 @@ Dependencias:
 
 Desde la terminal:
 
-	$ cd cd Bing_escraper
+	$ cd B_escraper-main
 	$ docker build -t proyecto .
-  $ docker run -d -p 8888:8888 proyecto:latest
+	$ docker run -d -p 8888:8888 proyecto:latest
   
   
